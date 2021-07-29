@@ -3,7 +3,7 @@ import { View, Text,ImageBackground } from "react-native";
 import { StyledButton } from '../StyledButton';
 import styles from "./styles"
 
-export const CarItem = ({ name, tagLine, image, tagLineCTA }) => {
+export const CarItem = ( { car : { name, tagline, image, taglineCTA } } ) => {
 	return (
 		<View style={styles.carContainer}>
 			<ImageBackground source={image} style={styles.image} />
@@ -11,9 +11,8 @@ export const CarItem = ({ name, tagLine, image, tagLineCTA }) => {
 			<View style={styles.titles}>
 				<Text style={styles.title}>{name}</Text>
 				<Text style={styles.subtitle}>
-					{tagLine}
-					{" "}
-					<Text style={styles.subtitleCTA}>{tagLineCTA}</Text>
+					{tagline}{" "}
+					<Text style={styles.subtitleCTA}>{taglineCTA}</Text>
 				</Text>
 			</View>
 
