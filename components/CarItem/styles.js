@@ -20,13 +20,24 @@ const styles = StyleSheet.create({
 		fontSize: 16,
 		color: "#5c5e62"
 	},
-
+	subtitleCTA:{
+		textDecorationLine: "underline",
+		color: "black"
+	},
 	image: {
 		width: "100%",
 		height: "100%",
 		resizeMode: "contain",
 		position: "absolute"
-	}
+	},
+
+	buttonContainer: {
+		position: "absolute",
+		bottom: 50,
+		width: "100%"
+	},
+
+	
 });
 
 export default styles
