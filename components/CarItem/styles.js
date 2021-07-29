@@ -1,9 +1,13 @@
-import { StyleSheet, Dimensions } from "react-native"
+import { StyleSheet, Dimensions, StatusBar } from "react-native";
+
+
 
 const styles = StyleSheet.create({
 	carContainer: {
 		width: "100%",
-		height: Dimensions.get("screen").height
+		height: Platform.OS === "android"
+					? Dimensions.get("screen").height - StatusBar.currentHeight
+					: Dimensions.get("window").height
 	},
 
 	titles: {

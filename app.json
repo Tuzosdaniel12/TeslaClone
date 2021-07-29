@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Clone of Testla",
+    "githubUrl": "https://github.com/Tuzosdaniel12/TeslaClone"
   }
 }

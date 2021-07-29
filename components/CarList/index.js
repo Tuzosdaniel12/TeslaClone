@@ -1,11 +1,17 @@
 import React from 'react'
-import { View, FlatList, Dimensions } from "react-native";
+import { View, FlatList, Dimensions, StatusBar } from "react-native";
 import { CarItem } from '../CarItem';
 
 import styles from "./styles";
 import cars from "./cars.js"
 
 export const CarList = () => {
+
+	const height =
+		Platform.OS === "android"
+			? Dimensions.get("screen").height - StatusBar.currentHeight
+			: Dimensions.get("window").height;
+
     return (
 		<View style={styles.container}>
 			<FlatList
@@ -15,7 +21,7 @@ export const CarList = () => {
 				showsVerticalScrollIndicator={false}
 				snapToAlignment={"start"}
 				decelerationRate={"fast"}
-				snapToInterval={Dimensions.get("screen").height}
+				snapToInterval={height}
 			/>
 		</View>
 	);
