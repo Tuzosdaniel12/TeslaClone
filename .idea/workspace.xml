@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b253d18e-95bf-4bc0-9d68-ced9a489f243" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.expo-shared/assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/assets/adaptive-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/assets/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/assets/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/assets/splash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/CarItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/CarItem/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +24,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -49,10 +42,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="606" y="100" width="1200" height="800" key="AVDManager" timestamp="1627527885694">
+    <state x="606" y="100" width="1200" height="800" key="AVDManager" timestamp="1627537640471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="606" y="100" width="1200" height="800" key="AVDManager/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1627527885694" />
+    <state x="606" y="100" width="1200" height="800" key="AVDManager/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1627537640471" />
     <state x="606" y="100" width="1200" height="800" key="AVDManager/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1627526099786" />
   </component>
 </project>
