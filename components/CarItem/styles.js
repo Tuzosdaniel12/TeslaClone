@@ -3,7 +3,7 @@ import { StyleSheet, Dimensions } from "react-native"
 const styles = StyleSheet.create({
 	carContainer: {
 		width: "100%",
-		height: Dimensions.get("window").height,
+		height: Dimensions.get("screen").height
 	},
 
 	titles: {
@@ -14,11 +14,13 @@ const styles = StyleSheet.create({
 
 	title: {
 		fontSize: 40,
-		fontWeight: "600"
+		fontWeight: "600",
+		textAlign: "center"
 	},
 	subtitle: {
 		fontSize: 16,
-		color: "#5c5e62"
+		color: "#5c5e62",
+		textAlign: "center"
 	},
 	subtitleCTA: {
 		textDecorationLine: "underline",

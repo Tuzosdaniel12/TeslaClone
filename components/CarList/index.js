@@ -11,10 +11,11 @@ export const CarList = () => {
 			<FlatList
 				data={cars}
 				renderItem={({ item }) => <CarItem car={item} />}
-                showsVerticalScrollIndicator={false}
-                snapToAlignment={"start"}
-                decelerationRate={"fast"}
-                snapToInterval={Dimensions.get("window").height}
+				keyExtractor={(item, index) => index.toString()}
+				showsVerticalScrollIndicator={false}
+				snapToAlignment={"start"}
+				decelerationRate={"fast"}
+				snapToInterval={Dimensions.get("screen").height}
 			/>
 		</View>
 	);
